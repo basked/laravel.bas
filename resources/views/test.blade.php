@@ -78,9 +78,17 @@
     @endif
 
     <div class="content">
+
+        <div class="array">
+            <ul>
+            @foreach($tasks as $task)
+                <li>  {{ $task->body.'-'.$task->id }} </li>
+            @endforeach
+            </ul>
+        </div>
+
         <div class="title m-b-md">
-           {{ $name }}
-            {{$nickname}}
+            -=basked.pro=-
         </div>
 
         <div class="links">
