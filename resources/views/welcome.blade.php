@@ -76,14 +76,12 @@
                     @endif
                 </div>
             @endif
-
             <div class="content">
-                <div class="title m-b-md">
-                    Laravel
+                <div class="title m-b-md links">
+                    Laravel <a href="{{ url('/tasks') }}">My Tasks -=basked.pro=-</a>
                 </div>
 
                 <div class="links">
-                    <a href="{{ url('/test') }}">_PAge</a>
                     <a href="https://laravel.com/docs">Documentation</a>
                     <a href="https://laracasts.com">Laracasts</a>
                     <a href="https://laravel-news.com">News</a>
