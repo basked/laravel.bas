@@ -79,9 +79,9 @@
     <div class="content">
 
         <div class="links">
-            <a class="links" href="{{ url('/tasks') }}">My Tasks -=basked.pro=-</a>
+            <a class="title m-b-md" href="{{ url('/tasks') }}">My Tasks -=basked.pro=-</a>
         </div>
-        <div class="title m-b-md links">
+        <div class="title m-b-md">
             Laravel Learning
         </div>
 
